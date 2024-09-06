@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header & nav style*/
+
+.head {
+
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.head>div {
+    flex-direction: row;
+    width: 40%;
+    display: flex;
+}
+
+.lefthead {
+    display: block;
+
+    margin: 0 50px;
+}
+
+.nav {
+    height: auto;
+    width: 100%;
+    align-items: center;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.righthead {
+    display: flex;
+    justify-content: end;
+    margin: 0 50px;
+
+
+}
+
+.righthead .LogIn {
+    width: 70px;
+    padding: 10px;
+    margin-right: 20px;
+    color: black;
+}
+
+
+.theam-changer {
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    margin-right: 20px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
+
+
+}
+
+.theam-changer i {
+   margin-top: -2px;
+   margin-left: -1px;
+    border-radius: 50%;
+}
+
+/* some theames */
+#Dark{
+background-color: rgb(24, 23, 23);
+color: white;
+}
+
+#light{
+    background-color: white;
+    color: black;
+}
+/* 
+#modern{
+    backg
+} */
+/* endhere */
+
+
+/* section_Home */
+#Home {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+}
+
+.Welcome-page {
+    margin-top: 5px;
+    display: flex;
+    height: 95%;
+    width: 95%;
+    border: 2px solid red;
+    display: flex;
+}
+
+.Welcome-page>div {
+    justify-content: center;
+    width: 100%;
+}
+
+.image-text{
+    background-image: url("aGirl.jpg");
+   background-size: 100% auto; 
+   justify-content: center;
+   
+   align-content: center;
+   
+
+}
+.floatcontain{
+    position: relative;
+    margin: 5px;
+    padding: 20px;
+    top: -70px;
+    left: 50px;
+}
+
+.section-div-h3{
+    font-size: 35px;
+    line-height: 40px;
+}
+.section-div-name{
+    font-size: 25px;
+}
+.section-div-floattext{
+    font-size: 35px;
+    line-height: 40px;
+}
+/* about? */
+#About {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid blue;
+}
+
+#About .About-page-notes {
+    border: 2px solid red;
+    height: 80%;
+
+    width: 60%;
+}
+
+#About .Subject_info {
+    width: 20%;
+}
+/* notes-css */
+#Notes{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(0, 255, 55);
+}
+/* contact-css? */
+#Contact{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(17, 7, 104);
+}
+
+#Share_tought{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(251, 0, 255);
+}
+

@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    scroll-behavior: smooth;
+    font-family: poppins;
+
+}
+
+
+header {
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(0, 0, 50);
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header div {
+
+    display: flex;
+    width: 45%;
+    height: 50px;
+    display: inline-block;
+}
+
+.head1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.head1 div {
+
+    width: 30%;
+}
+
+/* 
+.head1 .search-bar{
+    width: 80%;
+} */
+
+.head1 .search-icon-holder {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.head1 .search-icon-holder input {
+
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+    height: auto;
+    width: 90%;
+    font-size: 25px;
+}
+
+.head1 .search-icon-holder {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    height: auto;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+.head1 .colorbody-changer {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    height: auto;
+    width: 10%;
+    font-size: 25px;
+}
+
+
+
+header .head1 .colorbody-changer button {
+    color: red;
+    font-size: 25px;
+    background-color: rgb(0, 0, 50);
+    border: none;
+}
+
+ul {
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+ul li {
+    text-align: center;
+    width: 15%;
+    margin-top: 10px;
+    font-size: 19px;
+    display: inline-block;
+}
+
+.content-table {
+    padding-top: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-table div {
+
+    border: 2px solid black;
+    height: 90vh;
+    width: 80%;
+    display: flex;
+}
+
+.Home-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.Home-right div {
+    height: 50%;
+}
+
+.Home-right .intro-script {
+    width: 100%;
+    flex-direction: column;
+}
+
+.Home-right .intro-script .section-div-h3 {
+    font-size: 25px;
+}
+
+.Home-right .intro-script .section-div-name {
+
+    font-size: 30px;
+}
+
+.Home-right .intro-script .section-div-floattext {
+    font-size: 25px;
+}
+
+
+
+/* about */
+.left-about {
+    flex-direction: column;
+    height: 50%;
+    align-items: center;
+    width: 80%;
+  
+}
+
+.left-about-up {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+
+}
+
+.left-about .left-about-up .left-about-image {
+    height: 80%;
+}
+
+.left-about .left-about-up  .image2{
+height: 350px;
+width: 350px;
+border-radius: 50%;
+}
+
+.boldname {
+    margin-top: 10px;
+    height: 50px;
+    font-size: 20px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-about .left-about-up-down-info {
+    height: 20%;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: aqua;
+   
+}
+
+.left-about .left-about-up-down-info a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.left-about-image {
+    height: 50px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.left-about .left-about-up-down-info .More-about-me {
+    height: 50%;
+    width: 100%;
+
+    align-items: center;
+}
+
+.right-about {
+    flex-direction: column;
+}
+
+.right-about .right-about-h3 {
+    height: 80px;
+    font-size: 50px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.right-about-span {
+    color: aqua;
+    font-size: 40px;
+}
+
+.right-about-h4 {
+    height: 30px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* contact */
+
+.Contact {
+    flex-direction: row;
+}
+
+.right-contact {
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-contact div {
+    height: 50%;
+}
+
+.up-contact {
+    flex-direction: column;
+    height: 60%;
+    align-items: center;
+}
+
+.up-down .socioi-ico {
+    height: 50px;
+    width: 50px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+text-align: center;
+
+    font-size: 30px;
+}
+
+
+.up-contact .up-upper>p{
+   
+    margin: 3px;
+}
+
+
+
+.down-contact {
+    height: 40%;
+}
+
+.up-contact .up-upper {
+    height: 80%;
+    flex-direction: column;
+
+}
+
+.up-contact .up-down {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.left-contact {
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.left-contact .note {
+    height: 10%;
+}
+
+.left-contact .left-contact-down {
+    height: 90%
+}
+
+.note {
+    align-items: center;
+    height: 30%;
+}
+
+.note h1 {
+
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-contact-down {
+    height: 70%;
+
+}
+
+.left-contact-down div {
+
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-contact-down .form {
+    height: 60%;
+
+    flex-direction: column;
+    border-radius: 20px;
+    border-right: 2px solid red;
+    border-left: 3px solid blue;
+}
+
+.left-contact-down .form label {
+    height: 60px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.left-contact-down .form input {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 10px;
+    height: 25px;
+    width: 100%;
+}
+
+.left-contact-down .form textarea {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 10px;
+    height: 80px;
+    width: 100%;
+}
+
+#button {
+    margin-top: 25px;
+    margin-left: 140px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid black;
+    border-radius: 20px;
+    background-color: aqua;
+    color: white;
+}
+
+/* Skill */
+
+.Skill-Section{
+
+  flex-direction: column;
+
+ 
+}
+
+.Skill-Section .slill-heading{
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    
+}
+
+
+.Skill-Section .skill-match-box {
+flex-wrap: wrap;
+justify-content: space-around;
+width: 100%;
+}
+
+.Skill-Section .skill-match-box .skill{
+  width: 30%;
+  height: 40%;
+  flex-direction: column;
+  
+}
+
+.Skill-Section .skill-match-box .skill >div{
+    width: 100%;
+    height: 8%;
+    font-size: 50px;
+ 
+    border: 3px solid black;
+    border-radius: 20px;
+    
+}
+
+
+.Skill-Section .skill-match-box .skill >div .box{
+    width: 100%;
+}
+
+
+
+.Skill-Section .skill-match-box .skill i{
+    height: 50px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+

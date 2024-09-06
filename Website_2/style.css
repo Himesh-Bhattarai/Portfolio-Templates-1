@@ -1,0 +1,803 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: poppins;
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+/* Header-style */
+.header {
+    background: transparent;
+    background-color: rgb(0, 0, 50);
+    position: fixed;
+    top: 0;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+
+.header>div {
+    width: 40%;
+}
+
+
+.header-div-h3 {
+    position: relative;
+    font-size: 22px;
+    top: -20px;
+    left: -20px;
+    display: inline;
+}
+
+/* NavBAr */
+.navbar {
+    position: relative;
+    left: 100px;
+}
+
+nav a.active {
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: 2px underline;
+    color: red;
+}
+
+li {
+
+    text-decoration: none;
+    display: inline;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    text-decoration: 2px solid red underline;
+}
+
+.navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+}
+
+
+
+/* Home_section */
+#Home {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#Home>div {
+    width: 40%;
+}
+
+.home-intro {
+    border-right: 2px solid white;
+}
+
+.section-div-h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.section-div-name {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section-div-floattext {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.section-div-floattext span {
+    color: #0ef;
+}
+
+
+.socialicons a {
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    margin: 30px 15px 30px 0px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+
+}
+
+.socialicons a:hover {
+    background-color: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.my-photos {
+    color: whitesmoke;
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 5px;
+    background-color: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 2px solid #0ef;
+    box-shadow: 0 0 40px #0ef;
+}
+
+.my-photos:hover {
+    background-color: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.follower-count {
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    position: relative;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 2px solid #0ef;
+    box-shadow: 0 0 40px #0ef;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.my-images {
+    box-shadow: 0 0 90px #0ef;
+    background-color: black;
+    border-radius: 8px;
+    width: 20%;
+    height: 350px;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.my-images:hover {
+    transform: translateY(10px);
+
+}
+
+.all {
+    height: 340px;
+    width: 98%;
+}
+
+.back {
+    position: relative;
+    left: 40px;
+    top: 30px;
+    height: 40px;
+    width: 120px;
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 5px;
+    background-color: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 2px solid #0ef;
+    box-shadow: 0 0 40px #0ef;
+}
+
+.image-side {
+    position: relative;
+    height: 400px;
+    width: auto;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 5px solid #0ef;
+    box-shadow: 0 0 40px #0ef;
+}
+
+.image-side:hover {
+    transform: translateX(10px);
+}
+
+.image1 {
+    height: 450px;
+    top: -70px;
+    left: 70px;
+    border: 1px rgb(0, 0, 33);
+    box-shadow: 0 0 40px #0ef;
+    background: transparent;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.image1:hover {
+    transform: translateY(10px);
+}
+
+
+/* About-Section */
+#About {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+
+#About>div {
+    width: 40%;
+}
+
+.image2 {
+    position: absolute;
+    top: 185px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #0ef;
+    box-shadow: 0 0 100px #0ef;
+}
+
+.image2:hover {
+    transform: translateY(30px);
+}
+
+.boldname {
+    color: #0ef;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 520px;
+
+}
+
+.right-about-h3 {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.right-about-h3 span {
+    color: #0ef;
+}
+
+.right-about-h4 {
+    position: relative;
+    top: 80px;
+    font-size: 25px;
+}
+
+.right-about-p {
+    position: relative;
+    letter-spacing: 1px;
+    top: 90px;
+    font-size: 18px;
+}
+
+.More-about-me {
+    position: relative;
+    left: 150px;
+    top: 110px;
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.More-about-me:hover {
+    background-color: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+
+/* My-services_Section */
+#Services {
+    width: 100%;
+    height: 100vh;
+}
+
+.Services {
+    padding: 90px;
+    width: 100%;
+    height: 100vh;
+}
+
+.Services-h3 {
+    display: block;
+    height: 70px;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+}
+
+.Services-h3 span {
+    color: #0ef;
+}
+
+.Services-list {
+    position: relative;
+    top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Services-list div {
+    width: 30%;
+    background-color: transparent;
+    font-size: 12px;
+    height: 300px;
+    border-right: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px #012290f7
+}
+
+.Services-list div:hover {
+    transform: translateX(10px);
+}
+
+.Services-list div i {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.Services-list div p {
+    margin: 15px;
+}
+
+.Services-list .h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+/* Skills Section */
+/* Your CSS styling for the skills section */
+#Skills {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+
+    text-align: center;
+    padding: 80px;
+}
+
+.heading {
+    font-size: 36px;
+    color: white
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+
+
+.skill:hover{
+    transform: translateY(10px);
+    box-shadow: 2px 2px 100px #0ef
+
+}
+
+.skill {
+    width: 400px;
+    height: 170px;
+    text-align: center;
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 2px 2px 50px #012290f7
+}
+
+.skill i {
+    font-size: 40px;
+}
+
+.skill-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white
+}
+
+.skill-bar {
+    border-radius: 5px;
+}
+
+.skill-level {
+    box-shadow: 2px 2px 50px #0ef;
+    width: 0;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #0ef;
+    animation: fillBar 2s ease-in-out;
+}
+
+.html {
+    animation-duration: 1.5s;
+    width: 90%;
+}
+
+.css {
+    animation-duration: 1.5s;
+    width: 80%;
+}
+
+.javascript {
+    animation-duration: 1.5s;
+    width: 10%;
+}
+
+.c {
+    animation-duration: 1.5s;
+    width: 10%;
+}
+
+.android {
+    animation-duration: 1.5s;
+    width: 5%;
+}
+
+
+
+/* Contact_section */
+
+#Contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Contact>div {
+    width: 40%;
+}
+
+.right-contact {
+
+    margin: 35px;
+}
+
+.left-contact {
+    border-left: 2px solid white;
+}
+
+.right-contact p i {
+    color: #0ef;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+p i {
+    margin-top: 12px;
+    margin: 15px;
+}
+
+div .form {
+    box-shadow: 10px 5px 70px #012290f7;
+    border-radius: 6%;
+    border-bottom: 1px solid whitesmoke;
+    border-right: 1px solid #ff004f;
+    position: relative;
+    margin: auto;
+    height: 350px;
+    width: 350px;
+}
+
+.form {
+    background-color: transparent;
+    max-width: 490px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form button {
+    width: 290px;
+    background-color: #0ef;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.form button:hover {
+    background-color: #0ef;
+    color: #081b29;
+    box-shadow: 10 10 40px #0ef;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #Home {
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+    }
+
+    #Home>div {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .home-intro {
+        position: relative;
+        top: 90px;
+        order: 1;
+    }
+
+    .image-side {
+        position: relative;
+        top: 110px;
+    }
+
+    .image-side img {
+        order: -1;
+        position: absolute;
+        top: -40px;
+        left: 4px;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    #About {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    #About>div {
+        width: 100%;
+    }
+
+    .right-about {
+        position: relative;
+        top: 365px;
+    }
+
+    .image2 {
+        position: relative;
+        top: 375px;
+    }
+
+    .boldname {
+        top: 45rem;
+        left: 70px;
+    }
+
+    #Services {
+        position: relative;
+        top: 660px;
+
+    }
+
+    .Services{
+        width: 100%;
+    }
+
+    .Services-list {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .right-about-p{
+        font-size: 10px;
+    }
+
+    .More-about-me{
+left: 20px;
+    }
+
+    hr{
+        color: transparent;
+    }
+
+    .Services-list>div{
+        margin: 15px;
+        width: 100%;
+    }
+
+    #Skills{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        top: 2px;
+    }
+
+    .container{
+        width: 400px;
+        position: absolute;
+        top: 1150px;
+    }
+
+    #Contact{
+        position: relative;
+        top: 100em;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #Contact>div{
+        width: 100%;
+    }
+
+    footer{
+        height: 70px;
+        position: relative;
+        top: 200em;
+        width: 100%;
+        font-size: 8px;
+        justify-self: center;
+        align-items: center;
+        text-align: center;
+       
+
+    }
+
+
+
+}
+
+/* Adjust any other section-specific styles as needed */
+
+
+
+@media screen and (max-width: 470px){
+    #Home{
+        height: 120vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Home>div{
+        width: 100%;
+    }
+    
+    #About{
+        height: 120vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    #About>div{
+        width: 100%;
+    }
+
+    #Services {
+        position: relative;
+        top: 150px;
+        width: 100%;
+        height: 106vh;
+    }
+
+    .Services-list{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Services-list>div{
+        width: 100%;
+    }
+    #Services>div{
+        width: 100%;
+    }
+
+    .Skills{
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+    }
+#Skills{
+    
+    position: relative;
+    top: 375px;
+    width: 100%;
+    height: 100vh;
+}
+    #Contact{
+       
+            position: relative;
+            top: 618px;
+            height: auto;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+    }
+
+    #Contact>div{
+        width: 100%;
+    }
+
+    footer {
+        position: relative;
+        top: 630px;
+}
+} 

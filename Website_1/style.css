@@ -1,0 +1,236 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     font-family: 'Jost', sans-serif;
+     font-family: 'Poppins', sans-serif;
+     background-color: black;
+     color: white;
+ }
+
+ /* header */
+ .header {
+     position: sticky;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 60px;
+     background-color: rgb(0, 0, 59);
+ }
+
+ .header div {
+     width: 40%;
+     height: 60px;
+ }
+
+ /* header Left-Part */
+
+ .logo {
+     height: 58px;
+     width: 58px;
+     border-radius: 50%;
+     margin: 1px
+ }
+
+ .name {
+     font-size: 20px;
+ }
+
+ h4 {
+     position: relative;
+     top: -50px;
+     left: 42px;
+ }
+
+ /* header right Part */
+
+ /* Nav */
+ .Nav {
+     display: flex;
+     justify-content: center;
+ }
+
+ .Nav li {
+     list-style: none;
+ }
+
+ .Nav a {
+     padding: 20px 15px;
+     text-decoration: none;
+     display: inline-block;
+     color: white;
+ }
+
+ .Nav a:hover {
+     margin: 2px;
+     text-decoration: 2px red underline;
+ }
+
+ /* Home-section */
+
+ #home {
+     margin: auto;
+     margin-top: 5px;
+     height: 600px;
+     width: 90%;
+
+ }
+
+ #home_Part {
+     display: flex;
+     justify-content: space-around;
+     margin: 15px 0px;
+ }
+
+
+ #home_Part>div {
+     margin-top: 30px;
+     width: 40%;
+     height: 500px;
+
+ }
+
+
+ .My-Image {
+     height: 300px;
+     width: 300px;
+     border-radius: 50%;
+     border: 2px solid rgb(34, 33, 33);
+ }
+
+ #element {
+     height: 70px;
+     width: auto;
+     font-size: 25px;
+ }
+
+
+ .left-Home {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-right: 2px solid white;
+ }
+
+ h3 {
+     height: 30px;
+     text-align: center;
+     color: red;
+     font-size: 20px;
+     margin-top: 5px;
+ }
+
+ .intro {
+     margin-top: 10px;
+
+     height: 400px;
+     width: auto;
+
+ }
+
+ .socialicons {
+
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 50px;
+     height: 50px;
+     width: 250px;
+ }
+
+ .socialicons a {
+     color: red;
+     font-size: 22px;
+     padding: 18px;
+ }
+
+ hr {
+     height: 2px solid white;
+     margin-left: auto;
+     margin-right: auto;
+     width: 80%;
+ }
+
+ /* Footer */
+ footer {
+     display: flex;
+     height: 100px;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+
+ footer a {
+     text-decoration: none;
+ }
+
+
+
+ /* beyrfhrek gbh */
+ @media screen and (max-width: 768px) {
+     /* Adjust styles for smaller screens here */
+
+     /* Example: reduce header height and font size */
+     .header {
+         height: 40px;
+     }
+
+     .header div {
+         width: auto;
+         /* Adjust the width as needed for smaller screens */
+     }
+
+     .right-part {
+         display: none;
+         /* Hide the right part of the header on smaller screens */
+     }
+
+     .Nav {
+         flex-direction: column;
+         /* Stack navigation links vertically */
+         align-items: center;
+     }
+
+     .Nav a {
+         padding: 10px 0;
+     }
+
+     #home_Part {
+         flex-direction: column;
+         /* Stack home content vertically on smaller screens */
+     }
+
+     #home_Part>div {
+         width: 100%;
+         /* Take up full width on smaller screens */
+     }
+
+     .My-Image {
+         width: 100%;
+         /* Make the image responsive */
+         max-width: 300px;
+         /* Limit the maximum width */
+     }
+
+     .intro {
+         margin-top: 10px;
+         width: 100%;
+         /* Take up full width on smaller screens */
+     }
+
+     .socialicons {
+         margin-top: 20px;
+     }
+
+     .socialicons a {
+         font-size: 18px;
+         padding: 10px;
+     }
+
+     hr {
+         width: 100%;
+     }
+
+
+ }
